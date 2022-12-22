@@ -4,6 +4,7 @@
 	viewBox="0 0 5710 2505">
 	<style>
 		.intro_animated_f1_logo {
+			fill: #ff1e00;
 			animation: intro_animated_f1_logo_color 0.8s ease-in-out forwards;
 		}
 		@keyframes intro_animated_f1_logo_color {
