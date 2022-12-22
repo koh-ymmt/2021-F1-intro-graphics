@@ -21,7 +21,7 @@
 			25% {fill: none;}
 			50% {fill: inherit;}
 			75% {fill: none;}
-			100% {fill: inherit;}
+			100% {fill: #ff1e00;}
 		}
 	</style>
 
