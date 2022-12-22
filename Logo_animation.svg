@@ -1,0 +1,168 @@
+<svg
+	class="intro_animated_f1_logo"
+	xmlns="http://www.w3.org/2000/svg"
+	viewBox="0 0 5710 2505">
+	<style>
+		.intro_animated_f1_logo {
+			animation: intro_animated_f1_logo_color 0.8s ease-in-out forwards;
+		}
+		@keyframes intro_animated_f1_logo_color {
+			0% {fill: #ff3933;}
+			50% {fill: #ffb5b4;}
+			100% {fill: #ff1e00;}
+		}
+		#F1_logo_TM {
+			fill: none;
+			animation: intro_animated_f1_logo_TM_blink 0.19s linear 0.52s forwards;
+		}
+		@keyframes intro_animated_f1_logo_TM_blink {
+			0% {fill: inherit;}
+			25% {fill: none;}
+			50% {fill: inherit;}
+			75% {fill: none;}
+			100% {fill: inherit;}
+		}
+	</style>
+
+	<defs>
+		<clipPath id="clip-f-outside-start">
+			<path
+				d="M 900,5700 L -1080,680 L -1080,680 Z">
+				<animate
+					attributeName="d"
+					attributeType="XML"
+					values="
+						M 900,5700 L -1080,680 L -1080,680 Z;
+						M 920,3980 L -1080,680 L 4220,680 Z
+					"
+					begin="0.08s"
+					dur="0.45s"
+					fill="freeze"
+					calcMode="spline"
+					keySplines="0.2 0.2 0.2 1"/>
+			</path>
+		</clipPath>
+	</defs>
+	<defs>
+		<clipPath id="clip-f-outside-end">
+			<path
+				d="M -180,2800 V 680 H 5320 V 1780 Z">
+				<animate
+					attributeName="d"
+					attributeType="XML"
+					values="
+						M -180,2800 V 680 H 5320 V 1780 Z;
+						M -180,1780 V 680 H 5320 V 1780 Z
+					"
+					begin="0.42s"
+					dur="0.42s"
+					fill="freeze"
+					calcMode="spline"
+					keySplines="0.1 0.4 0.45 1"/>
+			</path>
+		</clipPath>
+	</defs>
+	<defs>
+		<clipPath id="clip-f-inside-start">
+			<path
+				d="M 920,5380 L 170,1180 H 170 Z">
+				<animate
+					attributeName="d"
+					attributeType="XML"
+					values="
+						M 920,5380 L 170,1180 H 170 Z;
+						M 920,3980 L 170,1180 H 3720 Z
+					"
+					begin="0s"
+					dur="0.3s"
+					fill="freeze"
+					calcMode="spline"
+					keySplines="0 0 0.25 1"/>
+			</path>
+		</clipPath>
+	</defs>
+	<defs>
+		<clipPath id="clip-f-inside-end">
+			<path
+				d="M 420,2980 V 1180 H 4820 V 1780 Z">
+				<animate
+					attributeName="d"
+					attributeType="XML"
+					values="
+						M 420,2980 V 1180 H 4820 V 1780 Z;
+						M 420,1780 V 1180 H 4820 V 1780 Z
+					"
+					begin="0.28s"
+					dur="0.42s"
+					fill="freeze"
+					calcMode="spline"
+					keySplines="0.1 0.4 0.45 1"/>
+			</path>
+		</clipPath>
+	</defs>
+	<defs>
+		<clipPath id="clip-1-start">
+			<path
+				d="M 11320,1780 L 5020,-420 L 5020,-420 Z">
+				<animate
+					attributeName="d"
+					attributeType="XML"
+					values="
+						M 11320,1780 L 5020,-420 L 5020,-420 Z;
+						M 11320,1780 L 5020,-420 L 2820,1780 Z
+					"
+					begin="0.1s"
+					dur="0.35s"
+					fill="freeze"
+					calcMode="spline"
+					keySplines="0.1 0.4 0.45 1"/>
+			</path>
+		</clipPath>
+	</defs>
+	<defs>
+		<clipPath id="clip-1-end">
+			<path
+				d="M 3170,1780 V -270 L 19220,780 V 1780 Z">
+				<animate
+					attributeName="d"
+					attributeType="XML"
+					values="
+						M 3170,1780 V -270 L 19220,780 V 1780 Z;
+						M 3170,1780 V 780 L 19220,780 V 1780 Z
+					"
+					begin="0.38s"
+					dur="0.45s"
+					fill="freeze"
+					calcMode="spline"
+					keySplines="0.1 0.4 0.45 1"/>
+			</path>
+		</clipPath>
+	</defs>
+
+	<!-- F outside -->
+	<g clip-path="url(#clip-f-outside-end)">
+		<path
+			d="M 659,2505 H 95 L 1480,1120 C 1733,867 1915,780 2385,780 H 4113 L 3739,1154 H 2420 C 2087,1154 1991,1173 1815,1349 Z"
+			clip-path="url(#clip-f-outside-start)"/>
+	</g>
+	
+	<!-- F inside -->
+	<g clip-path="url(#clip-f-inside-end)">
+		<path
+			d="M 2465,1216 C 2096,1216 2033,1234 1875,1392 L 762,2505 H 1286 C 2011,1780 2094.333,1696.6667 2136,1655 2218,1573 2261,1564 2434,1564 H 3329 L 3677,1216 Z"
+			clip-path="url(#clip-f-inside-start)"/>
+	</g>
+	
+	<!-- Letter "1" -->
+	<g clip-path="url(#clip-1-end)">
+		<path
+			d="M 5600,0 H 4999 L 3219,1780 H 3820 Z"
+			clip-path="url(#clip-1-start)"/>
+	</g>
+
+	<!-- TM -->
+	<path
+		id="F1_logo_TM"
+		d="M 4274.8704,1625.6613 V 1779.9784 H 4300.602 V 1660.8867 H 4301.0417 L 4343.8355,1779.9784 H 4366.0945 L 4408.8909,1660.8867 H 4409.3268 V 1779.9784 H 4435.0609 V 1625.6613 H 4397.4378 L 4355.932,1746.4778 H 4355.496 L 4312.9307,1625.6613 Z M 4132.4324,1625.6637 V 1648.9979 H 4132.4349 4181.2739 V 1779.9784 H 4208.2937 V 1648.9979 H 4257.3685 V 1625.6637 Z" />
+
+</svg>
